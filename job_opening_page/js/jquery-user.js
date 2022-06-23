@@ -1,8 +1,8 @@
 
-let didScroll;
-let lastScrollTop = 0;
-let delta = 5;
-let navHeight = $('nav').outerHeight();
+var didScroll;
+var lastScrollTop = 0;
+var delta = 5;
+var navHeight = $('nav').outerHeight();
 
 $(window).scroll(function(event){didScroll = true; });
 
